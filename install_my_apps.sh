@@ -27,6 +27,7 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       texlive
       texlive-latex-extra
       wget
+      zsh
 EOF
 )
 echo press Ctrl+c to quit
