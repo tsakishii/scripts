@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -eu -o pipefail # fail on error , debug all lines
 
