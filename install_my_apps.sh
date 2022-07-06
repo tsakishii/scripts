@@ -17,8 +17,6 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       neofetch
       npm
       nodejs
-      openjdk-11-jdk
-      python-is-python3
       python3-dev
       python3-pip
       python3-setuptools
