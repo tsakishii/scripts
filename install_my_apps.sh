@@ -18,6 +18,10 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       neofetch
       npm
       nodejs
+      openjdk-17-doc
+      openjdk-17-jdk
+      openjdk-17-jre
+      openjdk-17-source
       python3-dev
       python3-pip
       python3-setuptools
