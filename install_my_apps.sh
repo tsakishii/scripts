@@ -10,6 +10,7 @@ LIST_OF_APPS=""
 apt-get update
 echo "Installing some applications I like"
 while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
+      alacritty
       curl
       emacs
       fonts-hack-ttf
