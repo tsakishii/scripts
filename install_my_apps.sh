@@ -16,6 +16,7 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       fonts-hack-ttf
       ghc
       git-all
+      markdown
       neofetch
       npm
       nodejs
