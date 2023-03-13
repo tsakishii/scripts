@@ -23,6 +23,8 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       openjdk-17-jdk
       openjdk-17-jre
       openjdk-17-source
+      postgresql
+      postgresql-contrib
       python3-dev
       python3-pip
       python3-setuptools
