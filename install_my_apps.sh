@@ -14,7 +14,6 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       curl
       emacs
       fonts-hack-ttf
-      ghc
       git-all
       markdown
       neofetch
