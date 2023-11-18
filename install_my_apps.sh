@@ -17,8 +17,6 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       git-all
       markdown
       neofetch
-      npm
-      nodejs
       openjdk-17-doc
       openjdk-17-jdk
       openjdk-17-jre
