@@ -17,10 +17,10 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       git-all
       markdown
       neofetch
-      openjdk-17-doc
-      openjdk-17-jdk
-      openjdk-17-jre
-      openjdk-17-source
+      openjdk-21-doc
+      openjdk-21-jdk
+      openjdk-21-jre
+      openjdk-21-source
       postgresql
       postgresql-contrib
       python3-dev
