@@ -12,11 +12,9 @@ echo "Installing some applications I like"
 while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       alacritty
       curl
-      emacs
       fonts-hack-ttf
       git-all
       markdown
-      neofetch
       openjdk-21-doc
       openjdk-21-jdk
       openjdk-21-jre
