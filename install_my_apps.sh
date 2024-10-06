@@ -14,6 +14,7 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       curl
       fonts-hack-ttf
       git-all
+      htop
       markdown
       openjdk-21-doc
       openjdk-21-jdk
