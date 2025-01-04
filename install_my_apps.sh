@@ -27,10 +27,18 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       python3-setuptools
       sqlite3
       stow
+      sway
+      sway-backgrounds
+      swaybg
+      swayidle
+      swayimg
+      swaylock
       texlive
       texlive-latex-extra
       vi
+      waybar
       wget
+      wofi
       zsh
 EOF
 )
