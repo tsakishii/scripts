@@ -5,11 +5,9 @@ set -eu -o pipefail # fail on error , debug all lines
 sudo -n true
 test $? -eq 0 || exit 1 "you should have sudo priveledge to run this script"
 
-LIST_OF_APPS=""
-
 apt-get update
 echo "Installing some applications I like"
-while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
+while read -r pkg; do sudo apt-get install -y $pkg ; done < <(cat << EOF
       alacritty
       curl
       fonts-hack-ttf
@@ -43,6 +41,6 @@ while read -r p; do sudo apt-get install -y $p ; done < <(cat << EOF
       zsh
 EOF
 )
-echo press Ctrl+c to quit
+echo "press Ctrl+c to quit"
 sleep 5
 
