@@ -16,12 +16,6 @@ gnupg2
 grimshot
 htop
 markdown
-openjdk-21-doc
-openjdk-21-jdk
-openjdk-21-jre
-openjdk-21-source
-postgresql
-postgresql-contrib
 python3-dev
 python3-pip
 python3-setuptools

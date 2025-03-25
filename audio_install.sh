@@ -7,7 +7,6 @@ packages=(
     "pipewire"
     "pipewire-alsa"
     "pipewire-audio-client-libraries"
-    "pipewire-avb"
     "pipewire-bin"
     "pipewire-jack"
     "pipewire-pulse"
