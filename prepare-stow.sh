@@ -27,7 +27,10 @@ if [[ -f ~/${BPRO_FILE} ]]; then
     mv ~/${BPRO_FILE} ~/$BPRO_FILE+=".bak"
 fi
 
-# # ? dotfiles cloned
-# if [[ ! -d ~/dotfiles ]]; then
-#     echo "Listen here buddy! Go clone your dotfiles!"
-# fi
+# ? dotfiles cloned
+if [[ ! -d ~/dotfiles ]]; then
+    echo "Listen here buddy! I will clone your dotfiles!"
+    cd
+    git clone https://github.com/tsakishii/dotfiles.git
+    cd dotfiles
+fi
