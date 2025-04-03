@@ -15,7 +15,9 @@ git-all
 gnupg2
 grimshot
 htop
+libavcodec-extra
 markdown
+pass
 python3-dev
 python3-pip
 python3-setuptools
@@ -23,13 +25,14 @@ sqlite3
 stow
 sway
 sway-backgrounds
+sway-notification-center
 swaybg
 swayidle
 swayimg
 swaylock
-sway-notification-center
 texlive
 texlive-latex-extra
+vlc
 waybar
 wget
 wofi
