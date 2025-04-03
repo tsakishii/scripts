@@ -10,7 +10,7 @@ echo "Installing some applications I like"
 while read -r pkg; do sudo apt-get install -y $pkg ; done < <(cat << EOF
 alacritty
 curl
-fonts-hack-ttf
+extrepo
 git-all
 gnupg2
 grimshot
@@ -27,9 +27,9 @@ swaybg
 swayidle
 swayimg
 swaylock
+sway-notification-center
 texlive
 texlive-latex-extra
-vi
 waybar
 wget
 wofi
