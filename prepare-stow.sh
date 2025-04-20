@@ -28,9 +28,9 @@ if [[ -f ~/${BPRO_FILE} ]]; then
 fi
 
 # ? dotfiles cloned
-if [[ ! -d ~/dotfiles ]]; then
-    echo "Listen here buddy! I will clone your dotfiles!"
-    cd
-    git clone https://github.com/tsakishii/dotfiles.git
-    cd dotfiles
-fi
+# if [[ ! -d ~/dotfiles ]]; then
+#     echo "Listen here buddy! I will clone your dotfiles!"
+#     cd
+#     git clone https://github.com/tsakishii/dotfiles.git
+#     cd dotfiles
+# fi
