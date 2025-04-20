@@ -6,16 +6,16 @@ mkdir -p ~/.local/share/fonts
 
 cd /tmp
 fonts=(
-"CascadiaCode"
-"FiraCode"
-"Hack"
-"Inconsolata"
-"JetBrainsMono"
-"Meslo"
-"Mononoki"
-"RobotoMono"
-"SourceCodePro"
-"UbuntuMono"
+    "CascadiaCode"
+    "FiraCode"
+    "Hack"
+    "Inconsolata"
+    "JetBrainsMono"
+    "Meslo"
+    "Mononoki"
+    "RobotoMono"
+    "SourceCodePro"
+    "UbuntuMono"
 )
 
 for font in ${fonts[@]}
