@@ -23,13 +23,6 @@ python3-pip
 python3-setuptools
 sqlite3
 stow
-sway
-sway-backgrounds
-sway-notification-center
-swaybg
-swayidle
-swayimg
-swaylock
 texlive
 texlive-latex-extra
 vlc
