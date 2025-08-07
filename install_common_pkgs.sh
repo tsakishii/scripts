@@ -11,6 +11,7 @@ while read -r pkg; do sudo apt-get install -y $pkg ; done < <(cat << EOF
 alacritty
 curl
 extrepo
+gammastep
 git-all
 gnupg2
 grimshot
