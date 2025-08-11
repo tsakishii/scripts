@@ -5,7 +5,7 @@ set -euo pipefail
 os_arch=$(uname -m)
 app_name=zen
 literal_name_of_installation_directory="/opt/tarball-installations"
-universal_path_for_installation_directory="$HOME/$literal_name_of_installation_directory"
+universal_path_for_installation_directory="$literal_name_of_installation_directory"
 app_installation_directory="$universal_path_for_installation_directory/zen"
 official_package_location="" # Placeholder for download URL, to be set later
 tar_location=$(mktemp /tmp/zen.XXXXXX.tar.xz)
