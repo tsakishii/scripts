@@ -104,6 +104,7 @@ touch $desktop_in_local_applications
 echo "
 [Desktop Entry]
 Name=Zen Browser
+GenericName=Web Browser
 Comment=Experience tranquillity while browsing the web without people tracking you!
 Keywords=web;browser;internet
 Exec=$executable_path %u
